@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var _age = prompt('Hãy nhập tuổi của bạn');
+        if (confirm('Bạn có chắc bạn nhập tuổi > 18 không?')) {
+            if (_age >= 18) {
+                alert('Ok, tuổi của bạn là '+ _age + '>= 18 là đúng sự thật');
+            } else {
+                alert('No, tuổi của bạn là '+ _age + '< 18 là sai sự thật');
+            }
+        }
+        else {
+            alert("Tiếc quá bạn đã không đủ sự tự tin khi nhập tuổi của mình");
+        }
+    </script>
+</body>
+</html>

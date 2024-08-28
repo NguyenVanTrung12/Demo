@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td {
+            width: 80px;
+            height: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        document.write('<table border="1" cellspacing="0" sellspacing="1"');
+        for (var i = 1; i <= 100; i++) {
+            document.write('<tr>');
+            for (var j = 1; j <=  100; j++) {
+                document.write('<td>');
+                document.write(i + 'x' + j + '=' + i * j);
+                document.write('</td>');
+            }
+            document.write('</tr>');
+        }
+        document.write('</table>');
+    </script>
+</body>
+
+</html>

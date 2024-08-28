@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var n = prompt('Vui lòng nhập từ khóa (delete để xóa):');
+        if (n.toLowerCase() == 'delete' ) {
+            var m = confirm("Bạn có chắc chắn muốn xóa không?");
+            if (m) {
+                console.log('Đã xóa dữ liệu.');
+            } else {
+                console.log('Hủy xóa');
+            }
+        } else {
+            console.log('Không có gì xảy ra.');
+        }
+
+    </script>
+</body>
+
+</html>
